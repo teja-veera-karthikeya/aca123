@@ -15,7 +15,7 @@ function setup(){
 }
 
 function draw(){
-    background("#5196e3");
+    background('#FFFFFF')
     document.getElementById("font_size").innerHTML = "Font Size Of The Text Will Be = "+difference+"px";
     textSize(difference);
     fill("#00ff0a");
